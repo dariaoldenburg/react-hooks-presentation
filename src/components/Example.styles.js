@@ -1,9 +1,11 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const StyledRow = styled.div`
   padding: 40px 10px;
   font-size: 28px;
   min-width: 300px;
+  display: flex;
+  justify-content: center;
 
   &:not(:last-child) {
     border-bottom: 1px solid rgba(255, 255, 255, 0.8);
