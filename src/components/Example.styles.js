@@ -22,3 +22,10 @@ export const StyledButton = styled.button`
   color: white;
   font-weight: 500;
 `;
+
+export const StyledInput = styled.input`
+  height: 30px;
+  width: 200px;
+  font-size: 16px;
+  line-height: 28px;
+`;
